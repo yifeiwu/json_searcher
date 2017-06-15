@@ -1,7 +1,8 @@
+#this is the main program that produces the interactive prompt
+
 $LOAD_PATH.unshift(File.dirname(__FILE__), 'lib')
 require 'json_searcher'
 require 'prompt_processor'
-require 'pry'
 
 DATASET = ['./spec/fixtures/users.json', './spec/fixtures/organizations.json', './spec/fixtures/tickets.json'].freeze
 DATASET_NAMES = %w(Users Organizations Tickets).freeze

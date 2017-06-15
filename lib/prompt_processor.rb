@@ -1,7 +1,6 @@
 # process prompt commands
 
 require 'awesome_print'
-require 'pry'
 
 class PromptProcessor
   MENU_INSTRUCTIONS = "Available Commands\n '0' to search Users\n '1' to search Organizations\n '2' to search Tickets.\n" \
